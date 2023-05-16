@@ -7,7 +7,7 @@
   drawer.value = false
 </script>
 <template>   
-  <v-app theme="dark">
+  <v-app theme="light">
     <v-app-bar density="compact">
       <template v-slot:prepend>
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
